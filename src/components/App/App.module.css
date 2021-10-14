@@ -1,0 +1,10 @@
+.app {
+
+}
+
+.body {
+  composes: app-background-color from global;
+  position: relative;
+  top: 64px;
+  min-height: calc(100vh - 64px);
+}

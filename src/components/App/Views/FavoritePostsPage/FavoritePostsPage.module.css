@@ -1,0 +1,17 @@
+.pageLoading {
+  composes: fit-viewport-body from global;
+  composes: children-center from global;
+}
+
+.pageContainer {
+  padding: 24px;
+}
+
+.gridItem {
+  padding: 24px;
+}
+
+.noPostsToShow {
+  composes: fit-viewport-body from global;
+  composes: children-center from global;
+}

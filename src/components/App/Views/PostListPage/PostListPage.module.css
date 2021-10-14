@@ -1,0 +1,29 @@
+.pageLoading {
+  composes: fit-viewport-body from global;
+  composes: children-center from global;
+}
+
+.pageContainer {
+  padding: 24px;
+}
+
+.gridItem {
+  padding: 24px;
+}
+
+.pagination {
+  display: flex;
+  padding: 24px;
+}
+
+.paginationButton {
+  composes: text-grey-7 from global;
+  background-color: white;
+  width: 64px;
+  height: 64px;
+}
+
+.paginationButtonActive {
+  composes: background-primary from global;
+  color: white !important;
+}
